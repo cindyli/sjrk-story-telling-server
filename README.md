@@ -77,7 +77,6 @@ The examples below can be used to test the production configuration on a local e
 Refer to https://docs.docker.com/compose/environment-variables/ for other methods of passing the necessary environment variables to the `docker-compose` command.
 
 ###### Rebuilding the Container Images
-
 ```
 APP_SERVER_PORT=8081 \
 APP_SERVER_SECRETS_FILE=./secrets.json \
@@ -88,7 +87,6 @@ docker-compose -f docker-compose.yml -f docker-compose.cloud.yml build --no-cach
 ```
 
 ###### Bring the Service Up
-
 ```
 APP_SERVER_PORT=8081 \
 APP_SERVER_SECRETS_FILE=./secrets.json \
@@ -99,7 +97,6 @@ docker-compose -f docker-compose.yml -f docker-compose.cloud.yml up
 ```
 
 ###### Remove the Stopped Containers
-
 ```
 APP_SERVER_PORT=8081 \
 APP_SERVER_SECRETS_FILE=./secrets.json \
